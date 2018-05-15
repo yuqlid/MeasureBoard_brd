@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 8
 Title ""
 Date ""
 Rev ""
@@ -364,9 +364,9 @@ $EndComp
 Wire Wire Line
 	2950 3000 2350 3000
 Wire Wire Line
-	2350 2600 2350 3000
+	2350 3000 2350 2600
 Wire Wire Line
-	1950 2600 2350 2600
+	2350 2600 1950 2600
 Wire Wire Line
 	1950 2600 1950 2650
 Wire Wire Line
@@ -412,7 +412,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 2150 2600 2100
 Wire Wire Line
-	2600 2100 2950 2100
+	2550 2100 2950 2100
 Connection ~ 2900 2100
 $Comp
 L GND #PWR?
@@ -452,9 +452,9 @@ $EndComp
 Wire Wire Line
 	2950 3200 1750 3200
 Wire Wire Line
-	1750 3000 1750 3200
+	1750 3200 1750 3000
 Wire Wire Line
-	1350 3000 1750 3000
+	1750 3000 1350 3000
 Wire Wire Line
 	1550 3000 1550 3050
 Wire Wire Line
@@ -579,4 +579,7 @@ Text HLabel 2950 3600 0    60   Input ~ 0
 PC14
 Text HLabel 2950 3700 0    60   Input ~ 0
 PC15
+Text GLabel 2550 2100 0    60   Input ~ 0
+NRST
+Connection ~ 2600 2100
 $EndSCHEMATC

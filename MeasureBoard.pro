@@ -1,4 +1,4 @@
-update=2018/05/15 23:45:01
+update=2018年05月16日 水曜日 23:35:23
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=MCU_ST_STM32
 LibName31=mylib
+LibName32=onsemi

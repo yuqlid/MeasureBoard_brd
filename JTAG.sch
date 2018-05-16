@@ -30,12 +30,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:MCU_ST_STM32
 LIBS:mylib
+LIBS:onsemi
 LIBS:MeasureBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 3 11
 Title ""
 Date ""
 Rev ""
@@ -93,11 +94,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 4000 4350 4000
 Wire Wire Line
-	4150 3700 4150 3800
-Wire Wire Line
-	4150 3800 4150 4000
-Wire Wire Line
-	4150 4000 4150 4150
+	4150 3700 4150 4150
 Wire Wire Line
 	4200 3600 4350 3600
 Wire Wire Line

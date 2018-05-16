@@ -30,12 +30,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:MCU_ST_STM32
 LIBS:mylib
+LIBS:onsemi
 LIBS:MeasureBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 4 11
 Title ""
 Date ""
 Rev ""

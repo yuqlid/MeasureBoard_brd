@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 11
+Sheet 2 10
 Title ""
 Date ""
 Rev ""
@@ -540,9 +540,9 @@ Text HLabel 8750 5400 2    60   Input ~ 0
 SYS_JTDI
 Text HLabel 2950 4200 0    60   Input ~ 0
 SYS_JTDO-TRACESWO
-Text HLabel 2950 4700 0    60   BiDi ~ 0
+Text HLabel 2950 4700 0    60   Input ~ 0
 CAN_RX
-Text HLabel 2950 4800 0    60   BiDi ~ 0
+Text HLabel 2950 4800 0    60   Output ~ 0
 CAN_TX
 Text HLabel 2950 4600 0    60   Output ~ 0
 I2C1_SDA
@@ -566,14 +566,14 @@ Text HLabel 2950 5000 0    60   Input ~ 0
 USART3_RX
 Text HLabel 2950 5300 0    60   BiDi ~ 0
 USART3_RTS
-Text HLabel 2950 5100 0    60   Input ~ 0
+Text HLabel 2950 5100 0    60   Output ~ 0
 PB12
-Text HLabel 2950 5200 0    60   Input ~ 0
+Text HLabel 2950 5200 0    60   Output ~ 0
 PB13
 Text HLabel 2950 5400 0    60   Input ~ 0
 PB15
-Text HLabel 8750 4700 2    60   Output ~ 0
-USART1_CK
+Text HLabel 8750 4700 2    60   Input ~ 0
+PA8
 Text HLabel 2950 3500 0    60   Input ~ 0
 PC13
 Text HLabel 2950 3600 0    60   Input ~ 0

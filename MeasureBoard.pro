@@ -1,4 +1,4 @@
-update=2018年05月16日 水曜日 23:35:23
+update=2018/05/17 2:24:11
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../my_kicad-library;../../kicad-library/library
@@ -61,3 +59,5 @@ LibName29=valves
 LibName30=MCU_ST_STM32
 LibName31=mylib
 LibName32=onsemi
+[general]
+version=1

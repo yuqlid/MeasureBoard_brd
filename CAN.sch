@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:MeasureBoard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -147,16 +146,14 @@ Wire Wire Line
 $Comp
 L R R26
 U 1 1 5AFCDD6A
-P 6400 3300
-F 0 "R26" V 6480 3300 50  0000 C CNN
-F 1 "120" V 6400 3300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6330 3300 50  0001 C CNN
-F 3 "" H 6400 3300 50  0001 C CNN
-	1    6400 3300
+P 6500 3300
+F 0 "R26" V 6580 3300 50  0000 C CNN
+F 1 "120" V 6500 3300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6430 3300 50  0001 C CNN
+F 3 "" H 6500 3300 50  0001 C CNN
+	1    6500 3300
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6500 3750 6500 3150
 Connection ~ 6500 3750
 $Comp
 L Conn_01x02 J17
@@ -169,11 +166,9 @@ F 3 "" H 6400 2950 50  0001 C CNN
 	1    6400 2950
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6400 3150 6400 3150
 Connection ~ 5650 2600
 Wire Wire Line
-	6400 3450 6400 3550
+	6400 3150 6400 3550
 Connection ~ 6400 3550
 $Comp
 L +5V #PWR078
@@ -186,4 +181,6 @@ F 3 "" H 5650 2500 50  0001 C CNN
 	1    5650 2500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6500 3450 6500 3750
 $EndSCHEMATC

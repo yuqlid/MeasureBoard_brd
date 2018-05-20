@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:MeasureBoard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -845,7 +846,7 @@ U 1 1 5AFE5428
 P 9850 1650
 F 0 "J9" H 9850 1800 50  0000 C CNN
 F 1 "CONN_01X02" V 9950 1650 50  0000 C CNN
-F 2 "Connectors_JST:JST_VH_B2P-VH-B_2x3.96mm_Vertical" H 9850 1650 50  0001 C CNN
+F 2 "Connectors_JST:JST_VH_S2P-VH_2x2x3.96mm_Horizontal" H 9850 1650 50  0001 C CNN
 F 3 "" H 9850 1650 50  0001 C CNN
 	1    9850 1650
 	1    0    0    -1  

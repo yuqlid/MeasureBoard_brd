@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:MeasureBoard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -183,4 +184,5 @@ F 3 "" H 5650 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6500 3450 6500 3750
+NoConn ~ 6150 3650
 $EndSCHEMATC

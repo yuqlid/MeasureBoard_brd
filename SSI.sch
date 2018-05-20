@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:MeasureBoard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -57,7 +58,7 @@ F 3 "" H 3750 4750 50  0001 C CNN
 	1    3750 4750
 	-1   0    0    -1  
 $EndComp
-Text HLabel 4200 4750 2    60   Input ~ 0
+Text HLabel 4200 5050 2    60   Input ~ 0
 MOSI
 $Comp
 L GND #PWR058
@@ -70,11 +71,11 @@ F 3 "" H 3950 4650 50  0001 C CNN
 	1    3950 4650
 	0    -1   -1   0   
 $EndComp
-Text HLabel 4200 4850 2    60   Output ~ 0
+Text HLabel 4200 4950 2    60   Output ~ 0
 DATA_MISO
-Text HLabel 4200 4950 2    60   Input ~ 0
+Text HLabel 4200 4850 2    60   Input ~ 0
 SCK
-Text HLabel 4200 5050 2    60   Input ~ 0
+Text HLabel 4200 4750 2    60   Input ~ 0
 NSS
 Wire Wire Line
 	4200 5050 3950 5050

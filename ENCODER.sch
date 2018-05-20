@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:MeasureBoard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -421,12 +422,12 @@ Wire Wire Line
 $Comp
 L R_Pack04 RN5
 U 1 1 5AFE6942
-P 4000 2700
-F 0 "RN5" V 3700 2700 50  0000 C CNN
-F 1 "R_Pack04" V 4200 2700 50  0000 C CNN
-F 2 "Resistors_SMD:R_Array_Concave_4x0603" V 4275 2700 50  0001 C CNN
-F 3 "" H 4000 2700 50  0001 C CNN
-	1    4000 2700
+P 3900 2700
+F 0 "RN5" V 3600 2700 50  0000 C CNN
+F 1 "R_Pack04" V 4100 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Concave_4x0603" V 4175 2700 50  0001 C CNN
+F 3 "" H 3900 2700 50  0001 C CNN
+	1    3900 2700
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -440,8 +441,6 @@ Wire Wire Line
 Wire Wire Line
 	4000 2900 4000 3050
 Connection ~ 4000 3050
-NoConn ~ 4200 2500
-NoConn ~ 4200 2900
 Wire Wire Line
 	4100 3050 4100 2900
 Connection ~ 4100 3050
@@ -471,8 +470,6 @@ Wire Wire Line
 Wire Wire Line
 	4900 3250 4900 2000
 Wire Wire Line
-	4900 2000 5250 2000
-Wire Wire Line
 	5250 3050 5250 2600
 Connection ~ 5250 3050
 Wire Wire Line
@@ -494,19 +491,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 2150 4100 2500
 Wire Wire Line
-	4700 1900 5350 1900
-Wire Wire Line
-	5350 1900 5350 2200
-Wire Wire Line
-	5250 2000 5250 2200
-Wire Wire Line
-	5150 2200 5150 2150
-Wire Wire Line
-	5150 2150 5600 2150
-Wire Wire Line
-	5350 2600 5350 3050
-Connection ~ 5350 3050
-NoConn ~ 5050 2200
+	5600 2150 5050 2150
 Connection ~ 3300 2950
 Wire Wire Line
 	3300 2850 3300 3800
@@ -538,4 +523,18 @@ Wire Wire Line
 	2850 2850 2700 2850
 NoConn ~ 3250 2950
 NoConn ~ 2850 2950
+NoConn ~ 5350 2600
+Wire Wire Line
+	5050 2150 5050 2200
+Wire Wire Line
+	5150 2200 5150 2000
+Wire Wire Line
+	5150 2000 4900 2000
+Wire Wire Line
+	5250 2200 5250 1900
+NoConn ~ 5350 2200
+Wire Wire Line
+	5250 1900 4700 1900
+NoConn ~ 3800 2500
+NoConn ~ 3800 2900
 $EndSCHEMATC

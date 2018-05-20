@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:MeasureBoard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -294,7 +295,7 @@ F 1 "SKRPACE010" H 3150 1850 50  0000 C CNN
 F 2 "SMD_Packages:ALPS_SKRPAxE010" V 3100 2000 60  0001 C CNN
 F 3 "" V 3100 2000 60  0000 C CNN
 	1    3150 2000
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R18

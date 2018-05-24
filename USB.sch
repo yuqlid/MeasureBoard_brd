@@ -66,31 +66,9 @@ U 1 1 5AFDA29E
 P 5050 3950
 F 0 "F1" V 5130 3950 50  0000 C CNN
 F 1 "Fuse" V 4975 3950 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" V 4980 3950 50  0001 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_0679H" V 4980 3950 50  0001 C CNN
 F 3 "" H 5050 3950 50  0001 C CNN
 	1    5050 3950
-	0    1    1    0   
-$EndComp
-$Comp
-L R R20
-U 1 1 5AFDA2C8
-P 5250 4150
-F 0 "R20" V 5330 4150 50  0000 C CNN
-F 1 "24" V 5250 4150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5180 4150 50  0001 C CNN
-F 3 "" H 5250 4150 50  0001 C CNN
-	1    5250 4150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R21
-U 1 1 5AFDA301
-P 5250 4250
-F 0 "R21" V 5330 4250 50  0000 C CNN
-F 1 "24" V 5250 4250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5180 4250 50  0001 C CNN
-F 3 "" H 5250 4250 50  0001 C CNN
-	1    5250 4250
 	0    1    1    0   
 $EndComp
 $Comp
@@ -109,9 +87,9 @@ Wire Wire Line
 Wire Wire Line
 	4900 4350 4900 4400
 Wire Wire Line
-	4850 4250 5100 4250
+	4850 4250 5200 4250
 Wire Wire Line
-	5100 4150 4850 4150
+	4850 4150 5200 4150
 Wire Wire Line
 	4450 4550 4450 4750
 Wire Wire Line
@@ -122,12 +100,12 @@ Wire Wire Line
 	4900 4750 4900 4700
 Connection ~ 4550 4750
 Wire Wire Line
-	5400 4150 5450 4150
+	5700 4150 5950 4150
 Wire Wire Line
-	5400 4250 5450 4250
-Text HLabel 5450 4150 2    60   BiDi ~ 0
+	5700 4250 5900 4250
+Text HLabel 5950 4150 2    60   BiDi ~ 0
 D+
-Text HLabel 5450 4250 2    60   BiDi ~ 0
+Text HLabel 5900 4250 2    60   BiDi ~ 0
 D-
 $Comp
 L +5V #PWR060
@@ -168,4 +146,31 @@ F 3 "" H 4550 4850 50  0001 C CNN
 	1    4550 4850
 	1    0    0    -1  
 $EndComp
+$Comp
+L EMI_Filter_CommonMode FL1
+U 1 1 5B06F8C7
+P 5450 4200
+F 0 "FL1" H 5450 4375 50  0000 C CNN
+F 1 "EMI_Filter_CommonMode" H 5450 4025 50  0000 C CNN
+F 2 "Inductors_SMD:L_Murata_DLW21HN900SQ2#" V 5450 4240 50  0001 C CNN
+F 3 "" V 5450 4240 50  0000 C CNN
+	1    5450 4200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5250 4100 5200 4100
+Wire Wire Line
+	5200 4100 5200 4150
+Wire Wire Line
+	5200 4250 5200 4300
+Wire Wire Line
+	5200 4300 5250 4300
+Wire Wire Line
+	5650 4100 5700 4100
+Wire Wire Line
+	5700 4100 5700 4150
+Wire Wire Line
+	5700 4250 5700 4300
+Wire Wire Line
+	5700 4300 5650 4300
 $EndSCHEMATC

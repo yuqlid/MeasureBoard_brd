@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7)
+(kicad_pcb (version 4) (host pcbnew 4.0.6)
 
   (general
     (links 314)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.25)
     (user_trace_width 0.3)
     (user_trace_width 0.4)
     (user_trace_width 0.6)
@@ -5886,7 +5886,7 @@
   (gr_text I2C (at 65.5 103 270) (layer F.SilkS) (tstamp 5B02F807)
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
-  (gr_text 3V3,5V (at 60.3 98.4 270) (layer F.SilkS) (tstamp 5B02F652)
+  (gr_text 3V3,5V (at 58.6 98.5 270) (layer F.SilkS) (tstamp 5B02F652)
     (effects (font (size 1.1 1.1) (thickness 0.18)))
   )
   (gr_text 5V (at 52.1 98.8) (layer F.SilkS) (tstamp 5B02F3FB)
@@ -5907,7 +5907,7 @@
     (arrow2a (pts (xy 116.8 87.6) (xy 117.386421 86.473496)))
     (arrow2b (pts (xy 116.8 87.6) (xy 116.213579 86.473496)))
   )
-  (gr_text TX (at 79.8 82.6 270) (layer F.SilkS) (tstamp 5B02E071)
+  (gr_text RX (at 79.8 82.6 270) (layer F.SilkS) (tstamp 5B02E071)
     (effects (font (size 1.1 1.1) (thickness 0.18)))
   )
   (gr_line (start 78 78.2) (end 77.4 77.4) (layer F.SilkS) (width 0.2))
@@ -6008,7 +6008,7 @@
     (arrow2a (pts (xy 65 49) (xy 63.873496 48.413579)))
     (arrow2b (pts (xy 65 49) (xy 63.873496 49.586421)))
   )
-  (gr_text RX (at 83.6 82.6 270) (layer F.SilkS) (tstamp 5AFF1ED3)
+  (gr_text TX (at 83.6 82.6 270) (layer F.SilkS) (tstamp 5AFF1ED3)
     (effects (font (size 1.1 1.1) (thickness 0.18)))
   )
   (gr_text RX (at 74.8 79.4 270) (layer F.SilkS) (tstamp 5AFF1ED0)
@@ -6023,7 +6023,7 @@
   (gr_text SCL (at 62 99.6 270) (layer F.SilkS) (tstamp 5AFEB3B3)
     (effects (font (size 1.1 1.1) (thickness 0.18)))
   )
-  (gr_text GND (at 58.6 99.6 270) (layer F.SilkS) (tstamp 5AFEB3AE)
+  (gr_text GND (at 60.3 99.6 270) (layer F.SilkS) (tstamp 5AFEB3AE)
     (effects (font (size 1.1 1.1) (thickness 0.18)))
   )
   (gr_text 3V3 (at 65.1 135.2 270) (layer F.SilkS) (tstamp 5AFEB38E)

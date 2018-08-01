@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:MeasureBoard-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:MCU_ST_STM32
-LIBS:mylib
-LIBS:onsemi
+EESchema Schematic File Version 4
 LIBS:MeasureBoard-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -54,7 +21,7 @@ AN2_LPF
 Text HLabel 4350 3450 0    60   Output ~ 0
 AN3_LPF
 $Comp
-L R_Pack04 RN1
+L MeasureBoard-rescue:R_Pack04 RN1
 U 1 1 5B035B9C
 P 5300 3450
 F 0 "RN1" V 5000 3450 50  0000 C CNN
@@ -65,7 +32,7 @@ F 3 "" H 5300 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C23
+L MeasureBoard-rescue:C C23
 U 1 1 5B035C6B
 P 4500 3800
 F 0 "C23" H 4525 3900 50  0000 L CNN
@@ -76,7 +43,7 @@ F 3 "" H 4500 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C24
+L MeasureBoard-rescue:C C24
 U 1 1 5B036821
 P 4700 3800
 F 0 "C24" H 4725 3900 50  0000 L CNN
@@ -87,7 +54,7 @@ F 3 "" H 4700 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C25
+L MeasureBoard-rescue:C C25
 U 1 1 5B03684A
 P 4900 3800
 F 0 "C25" H 4925 3900 50  0000 L CNN
@@ -106,7 +73,7 @@ Wire Wire Line
 NoConn ~ 5100 3550
 NoConn ~ 5500 3550
 $Comp
-L GND #PWR081
+L MeasureBoard-rescue:GND #PWR081
 U 1 1 5B036AC3
 P 4700 4050
 F 0 "#PWR081" H 4700 3800 50  0001 C CNN
@@ -135,7 +102,7 @@ Wire Wire Line
 	4900 3650 4900 3250
 Connection ~ 4900 3250
 $Comp
-L Conn_01x03 J21
+L MeasureBoard-rescue:Conn_01x03 J21
 U 1 1 5B036E02
 P 6150 2750
 F 0 "J21" H 6150 2950 50  0000 C CNN
@@ -146,7 +113,7 @@ F 3 "" H 6150 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x03 J22
+L MeasureBoard-rescue:Conn_01x03 J22
 U 1 1 5B036E30
 P 6150 3250
 F 0 "J22" H 6150 3450 50  0000 C CNN
@@ -157,7 +124,7 @@ F 3 "" H 6150 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x03 J23
+L MeasureBoard-rescue:Conn_01x03 J23
 U 1 1 5B036E56
 P 6150 3750
 F 0 "J23" H 6150 3950 50  0000 C CNN
@@ -168,7 +135,7 @@ F 3 "" H 6150 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR082
+L MeasureBoard-rescue:GND #PWR082
 U 1 1 5B036EA4
 P 5850 4050
 F 0 "#PWR082" H 5850 3800 50  0001 C CNN
@@ -179,7 +146,7 @@ F 3 "" H 5850 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR083
+L MeasureBoard-rescue:+3V3 #PWR083
 U 1 1 5B036EBF
 P 5750 2500
 F 0 "#PWR083" H 5750 2350 50  0001 C CNN
@@ -210,7 +177,7 @@ Wire Wire Line
 	5750 3750 5950 3750
 Connection ~ 5750 3250
 $Comp
-L +3V3 #PWR084
+L MeasureBoard-rescue:+3V3 #PWR084
 U 1 1 5B0372DD
 P 6650 3100
 F 0 "#PWR084" H 6650 2950 50  0001 C CNN
@@ -221,7 +188,7 @@ F 3 "" H 6650 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C26
+L MeasureBoard-rescue:C C26
 U 1 1 5B037314
 P 6650 3250
 F 0 "C26" H 6675 3350 50  0000 L CNN
@@ -232,7 +199,7 @@ F 3 "" H 6650 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR085
+L MeasureBoard-rescue:GND #PWR085
 U 1 1 5B0373EB
 P 6650 3400
 F 0 "#PWR085" H 6650 3150 50  0001 C CNN
@@ -243,7 +210,7 @@ F 3 "" H 6650 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C27
+L MeasureBoard-rescue:C C27
 U 1 1 5B03747B
 P 6950 3250
 F 0 "C27" H 6975 3350 50  0000 L CNN
@@ -254,7 +221,7 @@ F 3 "" H 6950 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C28
+L MeasureBoard-rescue:C C28
 U 1 1 5B0374AA
 P 7250 3250
 F 0 "C28" H 7275 3350 50  0000 L CNN
@@ -265,7 +232,7 @@ F 3 "" H 7250 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR086
+L MeasureBoard-rescue:GND #PWR086
 U 1 1 5B0374DA
 P 6950 3400
 F 0 "#PWR086" H 6950 3150 50  0001 C CNN
@@ -276,7 +243,7 @@ F 3 "" H 6950 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR087
+L MeasureBoard-rescue:GND #PWR087
 U 1 1 5B037503
 P 7250 3400
 F 0 "#PWR087" H 7250 3150 50  0001 C CNN
@@ -287,7 +254,7 @@ F 3 "" H 7250 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR088
+L MeasureBoard-rescue:+3V3 #PWR088
 U 1 1 5B037540
 P 6950 3100
 F 0 "#PWR088" H 6950 2950 50  0001 C CNN
@@ -298,7 +265,7 @@ F 3 "" H 6950 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR089
+L MeasureBoard-rescue:+3V3 #PWR089
 U 1 1 5B037569
 P 7250 3100
 F 0 "#PWR089" H 7250 2950 50  0001 C CNN

@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:MeasureBoard-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:MCU_ST_STM32
-LIBS:mylib
-LIBS:onsemi
+EESchema Schematic File Version 4
 LIBS:MeasureBoard-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L STM32F103CBTx U3
+L MeasureBoard-rescue:STM32F103CBTx U3
 U 1 1 5AFAEF0D
 P 5850 4000
 F 0 "U3" H 3050 5725 50  0000 L BNN
@@ -59,7 +26,7 @@ F 3 "" H 5850 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR041
+L MeasureBoard-rescue:GND #PWR041
 U 1 1 5AFAF0EC
 P 5750 6150
 F 0 "#PWR041" H 5750 5900 50  0001 C CNN
@@ -82,7 +49,7 @@ Wire Wire Line
 	5950 6000 5950 5800
 Connection ~ 5850 6000
 $Comp
-L PWR_FLAG #FLG042
+L MeasureBoard-rescue:PWR_FLAG #FLG042
 U 1 1 5AFAF13A
 P 6200 5950
 F 0 "#FLG042" H 6200 6025 50  0001 C CNN
@@ -96,7 +63,7 @@ Wire Wire Line
 	6200 6000 6200 5950
 Connection ~ 5950 6000
 $Comp
-L C C18
+L MeasureBoard-rescue:C C18
 U 1 1 5AFAF1DC
 P 6150 2100
 F 0 "C18" H 6175 2200 50  0000 L CNN
@@ -107,7 +74,7 @@ F 3 "" H 6150 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C17
+L MeasureBoard-rescue:C C17
 U 1 1 5AFAF219
 P 6150 1850
 F 0 "C17" H 6175 1950 50  0000 L CNN
@@ -118,7 +85,7 @@ F 3 "" H 6150 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L L L1
+L MeasureBoard-rescue:L L1
 U 1 1 5AFAF23B
 P 5950 1500
 F 0 "L1" V 5900 1500 50  0000 C CNN
@@ -155,7 +122,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 1300 5950 1350
 $Comp
-L GND #PWR043
+L MeasureBoard-rescue:GND #PWR043
 U 1 1 5AFAF46F
 P 6350 2100
 F 0 "#PWR043" H 6350 1850 50  0001 C CNN
@@ -166,7 +133,7 @@ F 3 "" H 6350 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR044
+L MeasureBoard-rescue:GND #PWR044
 U 1 1 5AFAF48D
 P 6350 1850
 F 0 "#PWR044" H 6350 1600 50  0001 C CNN
@@ -181,7 +148,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 2100 6350 2100
 $Comp
-L C C16
+L MeasureBoard-rescue:C C16
 U 1 1 5AFAF507
 P 5550 1500
 F 0 "C16" H 5575 1600 50  0000 L CNN
@@ -192,7 +159,7 @@ F 3 "" H 5550 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C14
+L MeasureBoard-rescue:C C14
 U 1 1 5AFAF59D
 P 5150 1500
 F 0 "C14" H 5175 1600 50  0000 L CNN
@@ -203,7 +170,7 @@ F 3 "" H 5150 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR045
+L MeasureBoard-rescue:GND #PWR045
 U 1 1 5AFAF5C1
 P 5550 1650
 F 0 "#PWR045" H 5550 1400 50  0001 C CNN
@@ -214,7 +181,7 @@ F 3 "" H 5550 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR046
+L MeasureBoard-rescue:GND #PWR046
 U 1 1 5AFAF5E8
 P 5350 1650
 F 0 "#PWR046" H 5350 1400 50  0001 C CNN
@@ -225,7 +192,7 @@ F 3 "" H 5350 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR047
+L MeasureBoard-rescue:GND #PWR047
 U 1 1 5AFAF608
 P 5150 1650
 F 0 "#PWR047" H 5150 1400 50  0001 C CNN
@@ -251,7 +218,7 @@ Wire Wire Line
 	5350 1350 5350 1300
 Connection ~ 5350 1300
 $Comp
-L +3V3 #PWR048
+L MeasureBoard-rescue:+3V3 #PWR048
 U 1 1 5AFAF8A8
 P 5750 1250
 F 0 "#PWR048" H 5750 1100 50  0001 C CNN
@@ -262,7 +229,7 @@ F 3 "" H 5750 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG049
+L MeasureBoard-rescue:PWR_FLAG #FLG049
 U 1 1 5AFAF973
 P 6200 1250
 F 0 "#FLG049" H 6200 1325 50  0001 C CNN
@@ -273,7 +240,7 @@ F 3 "" H 6200 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG050
+L MeasureBoard-rescue:PWR_FLAG #FLG050
 U 1 1 5AFAF99A
 P 6200 1500
 F 0 "#FLG050" H 6200 1575 50  0001 C CNN
@@ -287,7 +254,7 @@ Wire Wire Line
 	6200 1300 6200 1250
 Connection ~ 5950 1300
 $Comp
-L SKRPACE010 SW4
+L MeasureBoard-rescue:SKRPACE010 SW4
 U 1 1 5AFAFD30
 P 3150 2000
 F 0 "SW4" H 3150 2150 50  0000 C CNN
@@ -298,7 +265,7 @@ F 3 "" V 3100 2000 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R18
+L MeasureBoard-rescue:R R18
 U 1 1 5AFAFDEF
 P 2800 2800
 F 0 "R18" V 2880 2800 50  0000 C CNN
@@ -309,7 +276,7 @@ F 3 "" H 2800 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR051
+L MeasureBoard-rescue:GND #PWR051
 U 1 1 5AFAFF15
 P 2650 2800
 F 0 "#PWR051" H 2650 2550 50  0001 C CNN
@@ -320,7 +287,7 @@ F 3 "" H 2650 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C12
+L MeasureBoard-rescue:C C12
 U 1 1 5AFB00A0
 P 2150 2800
 F 0 "C12" H 2175 2900 50  0000 L CNN
@@ -331,7 +298,7 @@ F 3 "" H 2150 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C11
+L MeasureBoard-rescue:C C11
 U 1 1 5AFB01DC
 P 1950 2800
 F 0 "C11" H 1975 2900 50  0000 L CNN
@@ -342,7 +309,7 @@ F 3 "" H 1950 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR052
+L MeasureBoard-rescue:GND #PWR052
 U 1 1 5AFB020E
 P 2150 2950
 F 0 "#PWR052" H 2150 2700 50  0001 C CNN
@@ -353,7 +320,7 @@ F 3 "" H 2150 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR053
+L MeasureBoard-rescue:GND #PWR053
 U 1 1 5AFB0299
 P 1950 2950
 F 0 "#PWR053" H 1950 2700 50  0001 C CNN
@@ -375,7 +342,7 @@ Wire Wire Line
 	2150 2550 2150 2650
 Connection ~ 2150 2600
 $Comp
-L +3V3 #PWR054
+L MeasureBoard-rescue:+3V3 #PWR054
 U 1 1 5AFB0929
 P 2150 2550
 F 0 "#PWR054" H 2150 2400 50  0001 C CNN
@@ -386,7 +353,7 @@ F 3 "" H 2150 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C13
+L MeasureBoard-rescue:C C13
 U 1 1 5AFB0CD2
 P 2600 2300
 F 0 "C13" H 2625 2400 50  0000 L CNN
@@ -397,7 +364,7 @@ F 3 "" H 2600 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR055
+L MeasureBoard-rescue:GND #PWR055
 U 1 1 5AFB0DA9
 P 2600 2450
 F 0 "#PWR055" H 2600 2200 50  0001 C CNN
@@ -417,7 +384,7 @@ Wire Wire Line
 	2550 2100 2950 2100
 Connection ~ 2900 2100
 $Comp
-L GND #PWR056
+L MeasureBoard-rescue:GND #PWR056
 U 1 1 5AFB1629
 P 2950 1900
 F 0 "#PWR056" H 2950 1650 50  0001 C CNN
@@ -430,7 +397,7 @@ $EndComp
 NoConn ~ 3350 1900
 NoConn ~ 3350 2100
 $Comp
-L C C15
+L MeasureBoard-rescue:C C15
 U 1 1 5AFAF56D
 P 5350 1500
 F 0 "C15" H 5375 1600 50  0000 L CNN
@@ -441,7 +408,7 @@ F 3 "" H 5350 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal Y1
+L MeasureBoard-rescue:Crystal Y1
 U 1 1 5AFB2041
 P 1550 3200
 F 0 "Y1" H 1550 3350 50  0000 C CNN
@@ -468,7 +435,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 3400 1550 3350
 $Comp
-L C C9
+L MeasureBoard-rescue:C C9
 U 1 1 5AFB21BB
 P 1200 3000
 F 0 "C9" H 1225 3100 50  0000 L CNN
@@ -479,7 +446,7 @@ F 3 "" H 1200 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C10
+L MeasureBoard-rescue:C C10
 U 1 1 5AFB2220
 P 1200 3400
 F 0 "C10" H 1225 3500 50  0000 L CNN
@@ -492,7 +459,7 @@ $EndComp
 Connection ~ 1550 3000
 Connection ~ 1550 3400
 $Comp
-L GND #PWR057
+L MeasureBoard-rescue:GND #PWR057
 U 1 1 5AFB246F
 P 950 3200
 F 0 "#PWR057" H 950 2950 50  0001 C CNN

@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:MeasureBoard-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:MCU_ST_STM32
-LIBS:mylib
-LIBS:onsemi
+EESchema Schematic File Version 4
 LIBS:MeasureBoard-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GND #PWR076
+L MeasureBoard-rescue:GND #PWR076
 U 1 1 5AFD425A
 P 5650 4050
 F 0 "#PWR076" H 5650 3800 50  0001 C CNN
@@ -71,7 +38,7 @@ CAN_H
 Text HLabel 6950 3750 2    60   BiDi ~ 0
 CAN_L
 $Comp
-L GND #PWR077
+L MeasureBoard-rescue:GND #PWR077
 U 1 1 5AFCD706
 P 5100 4200
 F 0 "#PWR077" H 5100 3950 50  0001 C CNN
@@ -86,7 +53,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 2500 5650 3250
 $Comp
-L C C22
+L MeasureBoard-rescue:C C22
 U 1 1 5AFCDB0A
 P 5150 2800
 F 0 "C22" H 5175 2900 50  0000 L CNN
@@ -97,7 +64,7 @@ F 3 "" H 5150 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR078
+L MeasureBoard-rescue:GND #PWR078
 U 1 1 5AFCDB68
 P 5150 2950
 F 0 "#PWR078" H 5150 2700 50  0001 C CNN
@@ -112,7 +79,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 2600 5650 2600
 $Comp
-L R R25
+L MeasureBoard-rescue:R R25
 U 1 1 5AFCDD6A
 P 6500 3300
 F 0 "R25" V 6580 3300 50  0000 C CNN
@@ -124,7 +91,7 @@ F 3 "" H 6500 3300 50  0001 C CNN
 $EndComp
 Connection ~ 6500 3750
 $Comp
-L Conn_01x02 J20
+L MeasureBoard-rescue:Conn_01x02 J20
 U 1 1 5AFCDDD5
 P 6400 2950
 F 0 "J20" H 6400 3050 50  0000 C CNN
@@ -139,7 +106,7 @@ Wire Wire Line
 	6400 3150 6400 3550
 Connection ~ 6400 3550
 $Comp
-L +5V #PWR079
+L MeasureBoard-rescue:+5V #PWR079
 U 1 1 5B06A6DB
 P 5650 2500
 F 0 "#PWR079" H 5650 2350 50  0001 C CNN
@@ -152,7 +119,7 @@ $EndComp
 Wire Wire Line
 	6500 3450 6500 3750
 $Comp
-L R R24
+L MeasureBoard-rescue:R R24
 U 1 1 5B0301CA
 P 5100 4050
 F 0 "R24" V 5180 4050 50  0000 C CNN
@@ -165,7 +132,7 @@ $EndComp
 Wire Wire Line
 	5100 3850 5100 3900
 $Comp
-L +3V3 #PWR080
+L MeasureBoard-rescue:+3V3 #PWR080
 U 1 1 5B085494
 P 4600 3550
 F 0 "#PWR080" H 4600 3400 50  0001 C CNN
@@ -176,7 +143,7 @@ F 3 "" H 4600 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCP2562-E-SN U7
+L MeasureBoard-rescue:MCP2562-E-SN U7
 U 1 1 5B085502
 P 5650 3650
 F 0 "U7" H 5250 4000 50  0000 L CNN

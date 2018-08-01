@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:MeasureBoard-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:MCU_ST_STM32
-LIBS:mylib
-LIBS:onsemi
+EESchema Schematic File Version 4
 LIBS:MeasureBoard-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_01x06 J16
+L MeasureBoard-rescue:Conn_01x06 J16
 U 1 1 5AFCBD63
 P 3750 4750
 F 0 "J16" H 3750 5050 50  0000 C CNN
@@ -61,7 +28,7 @@ $EndComp
 Text HLabel 4200 5050 2    60   Input ~ 0
 MOSI
 $Comp
-L GND #PWR059
+L MeasureBoard-rescue:GND #PWR059
 U 1 1 5AFCBEF1
 P 3950 4650
 F 0 "#PWR059" H 3950 4400 50  0001 C CNN
@@ -86,7 +53,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 4750 4200 4750
 $Comp
-L GS3 J17
+L MeasureBoard-rescue:GS3 J17
 U 1 1 5AFCC06B
 P 4800 4550
 F 0 "J17" H 4850 4750 50  0000 C CNN
@@ -99,7 +66,7 @@ $EndComp
 Wire Wire Line
 	3950 4550 4650 4550
 $Comp
-L +5V #PWR060
+L MeasureBoard-rescue:+5V #PWR060
 U 1 1 5AFCC0EC
 P 5000 4400
 F 0 "#PWR060" H 5000 4250 50  0001 C CNN
@@ -110,7 +77,7 @@ F 3 "" H 5000 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR061
+L MeasureBoard-rescue:+3V3 #PWR061
 U 1 1 5AFCC0FF
 P 5150 4600
 F 0 "#PWR061" H 5150 4450 50  0001 C CNN

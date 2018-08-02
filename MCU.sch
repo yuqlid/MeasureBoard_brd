@@ -39,11 +39,11 @@ $EndComp
 Wire Wire Line
 	5650 5800 5650 6000
 Wire Wire Line
-	5650 6000 6200 6000
+	5650 6000 5750 6000
 Wire Wire Line
 	5850 6000 5850 5800
 Wire Wire Line
-	5750 5800 5750 6150
+	5750 5800 5750 6000
 Connection ~ 5750 6000
 Wire Wire Line
 	5950 6000 5950 5800
@@ -96,7 +96,7 @@ F 3 "" H 5950 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5950 1650 5950 2200
+	5950 1650 5950 1700
 Wire Wire Line
 	6000 2100 5950 2100
 Connection ~ 5950 2100
@@ -111,14 +111,14 @@ Connection ~ 5950 1700
 Wire Wire Line
 	5650 2200 5650 2150
 Wire Wire Line
-	5650 2150 5850 2150
+	5650 2150 5750 2150
 Wire Wire Line
 	5850 2150 5850 2200
 Wire Wire Line
-	5750 1250 5750 2200
+	5750 1250 5750 1300
 Connection ~ 5750 2150
 Wire Wire Line
-	5150 1300 6200 1300
+	5150 1300 5350 1300
 Wire Wire Line
 	5950 1300 5950 1350
 $Comp
@@ -202,12 +202,6 @@ F 3 "" H 5150 1650 50  0001 C CNN
 	1    5150 1650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5150 1650 5150 1650
-Wire Wire Line
-	5350 1650 5350 1650
-Wire Wire Line
-	5550 1650 5550 1650
 Wire Wire Line
 	5150 1350 5150 1300
 Connection ~ 5750 1300
@@ -335,11 +329,11 @@ Wire Wire Line
 Wire Wire Line
 	2350 3000 2350 2600
 Wire Wire Line
-	2350 2600 1950 2600
+	2350 2600 2150 2600
 Wire Wire Line
 	1950 2600 1950 2650
 Wire Wire Line
-	2150 2550 2150 2650
+	2150 2550 2150 2600
 Connection ~ 2150 2600
 $Comp
 L MeasureBoard-rescue:+3V3 #PWR054
@@ -381,7 +375,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 2150 2600 2100
 Wire Wire Line
-	2550 2100 2950 2100
+	2550 2100 2600 2100
 Connection ~ 2900 2100
 $Comp
 L MeasureBoard-rescue:GND #PWR056
@@ -423,7 +417,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 3200 1750 3000
 Wire Wire Line
-	1750 3000 1350 3000
+	1750 3000 1550 3000
 Wire Wire Line
 	1550 3000 1550 3050
 Wire Wire Line
@@ -431,7 +425,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 3400 1750 3300
 Wire Wire Line
-	1350 3400 1750 3400
+	1350 3400 1550 3400
 Wire Wire Line
 	1550 3400 1550 3350
 $Comp
@@ -472,7 +466,7 @@ $EndComp
 Wire Wire Line
 	1050 3000 1000 3000
 Wire Wire Line
-	1000 3000 1000 3400
+	1000 3000 1000 3200
 Wire Wire Line
 	1000 3400 1050 3400
 Wire Wire Line
@@ -551,4 +545,46 @@ PC15
 Text GLabel 2550 2100 0    60   Input ~ 0
 NRST
 Connection ~ 2600 2100
+Wire Wire Line
+	5750 6000 5850 6000
+Wire Wire Line
+	5750 6000 5750 6150
+Wire Wire Line
+	5850 6000 5950 6000
+Wire Wire Line
+	5950 6000 6200 6000
+Wire Wire Line
+	5950 2100 5950 2200
+Wire Wire Line
+	5950 1850 5950 2100
+Wire Wire Line
+	5950 1700 5950 1850
+Wire Wire Line
+	5750 2150 5850 2150
+Wire Wire Line
+	5750 2150 5750 2200
+Wire Wire Line
+	5750 1300 5750 2150
+Wire Wire Line
+	5750 1300 5950 1300
+Wire Wire Line
+	5550 1300 5750 1300
+Wire Wire Line
+	5350 1300 5550 1300
+Wire Wire Line
+	5950 1300 6200 1300
+Wire Wire Line
+	2150 2600 1950 2600
+Wire Wire Line
+	2150 2600 2150 2650
+Wire Wire Line
+	2900 2100 2950 2100
+Wire Wire Line
+	1550 3000 1350 3000
+Wire Wire Line
+	1550 3400 1750 3400
+Wire Wire Line
+	1000 3200 1000 3400
+Wire Wire Line
+	2600 2100 2900 2100
 $EndSCHEMATC

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:MeasureBoard-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MeasureBoard-rescue:Conn_02x05_Odd_Even J15
-U 1 1 5AFBC872
-P 5650 3800
-F 0 "J15" H 5700 4100 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 5700 3500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm_SMD" H 5650 3800 50  0001 C CNN
-F 3 "" H 5650 3800 50  0001 C CNN
-	1    5650 3800
-	1    0    0    -1  
-$EndComp
 Text GLabel 6100 4000 2    60   Input ~ 0
 NRST
 Wire Wire Line
@@ -40,17 +28,6 @@ SWDIO-TMS
 Text HLabel 5300 3600 0    60   Input ~ 0
 Vref
 NoConn ~ 5450 3900
-$Comp
-L MeasureBoard-rescue:GND #PWR058
-U 1 1 5AFBC9D3
-P 5250 4150
-F 0 "#PWR058" H 5250 3900 50  0001 C CNN
-F 1 "GND" H 5250 4000 50  0000 C CNN
-F 2 "" H 5250 4150 50  0001 C CNN
-F 3 "" H 5250 4150 50  0001 C CNN
-	1    5250 4150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5950 3900 6100 3900
 Wire Wire Line
@@ -62,7 +39,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 4000 5450 4000
 Wire Wire Line
-	5250 3700 5250 4150
+	5250 3700 5250 3800
 Wire Wire Line
 	5300 3600 5450 3600
 Wire Wire Line
@@ -71,4 +48,30 @@ Connection ~ 5250 4000
 Wire Wire Line
 	5450 3800 5250 3800
 Connection ~ 5250 3800
+Wire Wire Line
+	5250 4000 5250 4150
+Wire Wire Line
+	5250 3800 5250 4000
+$Comp
+L power:GND #PWR0151
+U 1 1 5C6FD453
+P 5250 4150
+F 0 "#PWR0151" H 5250 3900 50  0001 C CNN
+F 1 "GND" H 5255 3977 50  0000 C CNN
+F 2 "" H 5250 4150 50  0001 C CNN
+F 3 "" H 5250 4150 50  0001 C CNN
+	1    5250 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J9
+U 1 1 5C6FD4C2
+P 5650 3800
+F 0 "J9" H 5700 4217 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 5700 4126 50  0000 C CNN
+F 2 "" H 5650 3800 50  0001 C CNN
+F 3 "~" H 5650 3800 50  0001 C CNN
+	1    5650 3800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

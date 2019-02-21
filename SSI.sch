@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:MeasureBoard-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -39,7 +40,7 @@ U 1 1 5C6FAB59
 P 3750 4750
 F 0 "J10" H 3670 5167 50  0000 C CNN
 F 1 "Conn_01x06" H 3670 5076 50  0000 C CNN
-F 2 "" H 3750 4750 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B06B-EH-A_1x06_P2.50mm_Vertical" H 3750 4750 50  0001 C CNN
 F 3 "~" H 3750 4750 50  0001 C CNN
 	1    3750 4750
 	-1   0    0    -1  
@@ -83,7 +84,7 @@ U 1 1 5C6FC447
 P 4800 4550
 F 0 "JP2" V 4846 4618 50  0000 L CNN
 F 1 "SolderJumper_3_Open" V 4755 4618 50  0000 L CNN
-F 2 "" H 4800 4550 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4800 4550 50  0001 C CNN
 F 3 "~" H 4800 4550 50  0001 C CNN
 	1    4800 4550
 	0    1    -1   0   

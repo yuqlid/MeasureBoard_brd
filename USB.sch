@@ -233,7 +233,7 @@ F 1 "EMI_Filter_CommonMode" H 5450 4387 50  0000 C CNN
 F 2 "Inductors_SMD:L_Murata_DLW21HN900SQ2#" H 5450 4240 50  0001 C CNN
 F 3 "~" H 5450 4240 50  0001 C CNN
 	1    5450 4200
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:D D10

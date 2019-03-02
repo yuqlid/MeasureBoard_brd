@@ -178,7 +178,7 @@ Wire Wire Line
 	2550 3950 2550 4100
 Connection ~ 2550 4100
 Wire Wire Line
-	2350 3450 2350 3600
+	2350 3450 2350 3550
 Wire Wire Line
 	2350 3600 2550 3600
 Wire Wire Line
@@ -1516,4 +1516,48 @@ F 3 "" H 6150 5300 50  0001 C CNN
 	1    6150 5300
 	0    -1   -1   0   
 $EndComp
+$Comp
+L power:GND #PWR0199
+U 1 1 5C7BFDD8
+P 8450 4250
+F 0 "#PWR0199" H 8450 4000 50  0001 C CNN
+F 1 "GND" H 8455 4077 50  0000 C CNN
+F 2 "" H 8450 4250 50  0001 C CNN
+F 3 "" H 8450 4250 50  0001 C CNN
+	1    8450 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Dual JP3
+U 1 1 5C7C0CA5
+P 2000 3650
+F 0 "JP3" H 2000 3889 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 2000 3798 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2000 3650 50  0001 C CNN
+F 3 "~" H 2000 3650 50  0001 C CNN
+	1    2000 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 3650 2250 3550
+Wire Wire Line
+	2250 3550 2350 3550
+Connection ~ 2350 3550
+Wire Wire Line
+	2350 3550 2350 3600
+$Comp
+L power:+5V #PWR0200
+U 1 1 5C7C9AC8
+P 1600 3550
+F 0 "#PWR0200" H 1600 3400 50  0001 C CNN
+F 1 "+5V" H 1615 3723 50  0000 C CNN
+F 2 "" H 1600 3550 50  0001 C CNN
+F 3 "" H 1600 3550 50  0001 C CNN
+	1    1600 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 3550 1600 3650
+Wire Wire Line
+	1600 3650 1750 3650
 $EndSCHEMATC
